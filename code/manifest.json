@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Google Calendar Scroll Disabler",
-	"version": "0.2",
+	"name": "Google Slides Scroll Disabler",
+	"version": "1.0",
 	"icons": {
 		"16": "icon16.png",
 		"48": "icon48.png"
@@ -9,9 +9,9 @@
 	"content_scripts": [
 		{
 			"matches": [
-			"https://calendar.google.com/calendar/*"
+			"https://docs.google.com/presentation/*"
 			],
-			"js": ["jquery-2.1.4.min.js", "content.js"]
+			"js": ["content.js"]
 		}
 	]
 }
